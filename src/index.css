@@ -1,0 +1,107 @@
+body {
+  background-color: hsl(270, 80%, 38%);
+  color: white;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.to-do-list {
+  text-align: center;
+  margin-top: 100px;
+}
+
+h1 {
+  font-size: 4rem;
+  color: hsl(276, 11%, 91%);
+}
+
+button {
+  font-size: 1.6rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-button {
+  background-color: hsl(270, 93%, 18%);
+}
+
+.add-button:hover {
+  background-color: hsl(270, 50%, 33%);
+}
+
+.delete-button {
+  background-color: hsl(10, 90%, 50%);
+}
+
+.delete-button:hover {
+  background-color: hsl(10, 90%, 60%);
+}
+
+.move-button {
+  background-color: hsl(270, 60%, 50%);
+}
+
+.move-button:hover {
+  background-color: hsl(270, 60%, 45%);
+}
+
+input[type='text'] {
+  font-size: 1.5rem;
+  padding: 12px;
+  border: 2px solid hsl(270, 20%, 60%);
+  border-radius: 8px;
+  width: 60%;
+  max-width: 300px;
+  margin: 20px 0;
+  background-color: white;
+  color: hsl(270, 20%, 20%);
+}
+
+input[type='checkbox']{
+  width: 20px;
+  height: 20px; 
+}
+
+ol {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+li {
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 15px;
+  background-color: hsl(270, 20%, 95%);
+  color: hsl(270, 20%, 20%);
+  margin-bottom: 15px;
+  border: 2px solid hsl(270, 20%, 80%);
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li.completed {
+  background-color: hsl(120, 60%, 80%);  
+}
+
+.text {
+  flex: 1;
+}
+
+input[type='checkbox'] {
+  margin-right: 10px;
+}
+
+.delete-button, .move-button {
+  padding: 8px 12px;
+  font-size: 1.4rem;
+  margin-left: 10px;
+}
